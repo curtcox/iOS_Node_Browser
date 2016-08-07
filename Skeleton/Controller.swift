@@ -19,6 +19,26 @@ class Controller : UIViewController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
+    override func loadView() {
+        super.loadView()
+        addViews()
+        addEventHandlers()
+    }
+
+    override func didRotateFromInterfaceOrientation(fromInterfaceOrientation: UIInterfaceOrientation) {
+        removeViews()
+        addViews()
+    }
+
+    func addViews()          {}
+    func addEventHandlers()  {}
+
+    func removeViews() {
+        for subview in view.subviews {
+            subview.removeFromSuperview()
+        }
+    }
+
     func presentViewController(viewControllerToPresent: UIViewController) {
         presentViewController(viewControllerToPresent, animated:animated(), completion:{})
     }
