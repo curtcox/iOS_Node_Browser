@@ -479,7 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Skeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cve.Skeleton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cve.NodeBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -490,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Skeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cve.Skeleton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cve.NodeBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -560,6 +560,7 @@
 				4D2A32CD1D5624FA0086D43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D2A32CE1D5624FA0086D43C /* Build configuration list for PBXNativeTarget "SkeletonTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +569,7 @@
 				4D2A32D01D5624FA0086D43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D2A32D11D5624FA0086D43C /* Build configuration list for PBXNativeTarget "SkeletonUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +578,7 @@
 				4D2A32D31D5624FA0086D43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
