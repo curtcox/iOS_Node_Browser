@@ -33,6 +33,16 @@
 		4D2A32F31D5652E30086D43C /* WindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A32F21D5652E30086D43C /* WindowExtensions.swift */; };
 		4D2A32F51D5653290086D43C /* InstanceCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A32F41D5653290086D43C /* InstanceCounter.swift */; };
 		4D2A32F71D5656650086D43C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A32F61D5656650086D43C /* Colors.swift */; };
+		4D9606D01D5837C5008EC2AF /* Node+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606C61D5837C5008EC2AF /* Node+CoreDataProperties.swift */; };
+		4D9606D11D5837C5008EC2AF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606C71D5837C5008EC2AF /* Node.swift */; };
+		4D9606D21D5837C5008EC2AF /* File+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606C81D5837C5008EC2AF /* File+CoreDataProperties.swift */; };
+		4D9606D31D5837C5008EC2AF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606C91D5837C5008EC2AF /* File.swift */; };
+		4D9606D41D5837C5008EC2AF /* Source+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CA1D5837C5008EC2AF /* Source+CoreDataProperties.swift */; };
+		4D9606D51D5837C5008EC2AF /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CB1D5837C5008EC2AF /* Source.swift */; };
+		4D9606D61D5837C5008EC2AF /* Edge+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CC1D5837C5008EC2AF /* Edge+CoreDataProperties.swift */; };
+		4D9606D71D5837C5008EC2AF /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CD1D5837C5008EC2AF /* Edge.swift */; };
+		4D9606D81D5837C5008EC2AF /* Relationship+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CE1D5837C5008EC2AF /* Relationship+CoreDataProperties.swift */; };
+		4D9606D91D5837C5008EC2AF /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9606CF1D5837C5008EC2AF /* Relationship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +95,16 @@
 		4D2A32F21D5652E30086D43C /* WindowExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowExtensions.swift; sourceTree = "<group>"; };
 		4D2A32F41D5653290086D43C /* InstanceCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceCounter.swift; sourceTree = "<group>"; };
 		4D2A32F61D5656650086D43C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4D9606C61D5837C5008EC2AF /* Node+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Node+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D9606C71D5837C5008EC2AF /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		4D9606C81D5837C5008EC2AF /* File+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "File+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D9606C91D5837C5008EC2AF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		4D9606CA1D5837C5008EC2AF /* Source+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Source+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D9606CB1D5837C5008EC2AF /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		4D9606CC1D5837C5008EC2AF /* Edge+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Edge+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D9606CD1D5837C5008EC2AF /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		4D9606CE1D5837C5008EC2AF /* Relationship+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Relationship+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D9606CF1D5837C5008EC2AF /* Relationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relationship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +155,7 @@
 		4D2A32A21D5624F90086D43C /* Skeleton */ = {
 			isa = PBXGroup;
 			children = (
+				4D9606DA1D583836008EC2AF /* CoreData */,
 				4D2A32A31D5624F90086D43C /* AppDelegate.swift */,
 				4D2A32A51D5624F90086D43C /* ViewController.swift */,
 				4D2A32A71D5624FA0086D43C /* Main.storyboard */,
@@ -142,7 +163,6 @@
 				4D2A32AF1D5624FA0086D43C /* LaunchScreen.storyboard */,
 				4D2A32B21D5624FA0086D43C /* Info.plist */,
 				4D2A32AA1D5624FA0086D43C /* Skeleton.xcdatamodeld */,
-				4D2A32D41D5631620086D43C /* StoreManager.swift */,
 				4D2A32D61D5631B10086D43C /* Log.swift */,
 				4D2A32D81D5631DC0086D43C /* Memory.swift */,
 				4D2A32DA1D5632040086D43C /* Config.swift */,
@@ -180,6 +200,24 @@
 				4D2A32C81D5624FA0086D43C /* Info.plist */,
 			);
 			path = SkeletonUITests;
+			sourceTree = "<group>";
+		};
+		4D9606DA1D583836008EC2AF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A32D41D5631620086D43C /* StoreManager.swift */,
+				4D9606C61D5837C5008EC2AF /* Node+CoreDataProperties.swift */,
+				4D9606C71D5837C5008EC2AF /* Node.swift */,
+				4D9606C81D5837C5008EC2AF /* File+CoreDataProperties.swift */,
+				4D9606C91D5837C5008EC2AF /* File.swift */,
+				4D9606CA1D5837C5008EC2AF /* Source+CoreDataProperties.swift */,
+				4D9606CB1D5837C5008EC2AF /* Source.swift */,
+				4D9606CC1D5837C5008EC2AF /* Edge+CoreDataProperties.swift */,
+				4D9606CD1D5837C5008EC2AF /* Edge.swift */,
+				4D9606CE1D5837C5008EC2AF /* Relationship+CoreDataProperties.swift */,
+				4D9606CF1D5837C5008EC2AF /* Relationship.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,8 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9606D61D5837C5008EC2AF /* Edge+CoreDataProperties.swift in Sources */,
+				4D9606D31D5837C5008EC2AF /* File.swift in Sources */,
 				4D2A32ED1D5650010086D43C /* Fonts.swift in Sources */,
 				4D2A32F11D5652800086D43C /* Windows.swift in Sources */,
+				4D9606D91D5837C5008EC2AF /* Relationship.swift in Sources */,
 				4D2A32EF1D5650980086D43C /* Layout.swift in Sources */,
 				4D2A32D91D5631DC0086D43C /* Memory.swift in Sources */,
 				4D2A32A61D5624F90086D43C /* ViewController.swift in Sources */,
@@ -322,14 +363,21 @@
 				4D2A32D51D5631620086D43C /* StoreManager.swift in Sources */,
 				4D2A32E71D564F1A0086D43C /* Buttons.swift in Sources */,
 				4D2A32DB1D5632040086D43C /* Config.swift in Sources */,
+				4D9606D11D5837C5008EC2AF /* Node.swift in Sources */,
+				4D9606D71D5837C5008EC2AF /* Edge.swift in Sources */,
+				4D9606D01D5837C5008EC2AF /* Node+CoreDataProperties.swift in Sources */,
 				4D2A32F31D5652E30086D43C /* WindowExtensions.swift in Sources */,
 				4D2A32F71D5656650086D43C /* Colors.swift in Sources */,
+				4D9606D51D5837C5008EC2AF /* Source.swift in Sources */,
 				4D2A32D71D5631B10086D43C /* Log.swift in Sources */,
 				4D2A32EB1D564FCC0086D43C /* Sized.swift in Sources */,
 				4D2A32E11D56342C0086D43C /* Controller.swift in Sources */,
 				4D2A32F51D5653290086D43C /* InstanceCounter.swift in Sources */,
+				4D9606D41D5837C5008EC2AF /* Source+CoreDataProperties.swift in Sources */,
 				4D2A32A41D5624F90086D43C /* AppDelegate.swift in Sources */,
+				4D9606D81D5837C5008EC2AF /* Relationship+CoreDataProperties.swift in Sources */,
 				4D2A32E51D5634870086D43C /* Named.swift in Sources */,
+				4D9606D21D5837C5008EC2AF /* File+CoreDataProperties.swift in Sources */,
 				4D2A32AC1D5624FA0086D43C /* Skeleton.xcdatamodeld in Sources */,
 				4D2A32DF1D5633130086D43C /* Alerts.swift in Sources */,
 				4D2A32DD1D5632E30086D43C /* MemoryMonitor.swift in Sources */,

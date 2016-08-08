@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Edge" representedClassName=".Edge" syncable="YES">
+        <relationship name="node1" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+        <relationship name="node2" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+        <relationship name="relationship" maxCount="1" deletionRule="Nullify" destinationEntity="Relationship" syncable="YES"/>
+        <relationship name="sources" toMany="YES" deletionRule="Nullify" destinationEntity="Source" syncable="YES"/>
+    </entity>
+    <entity name="File" representedClassName=".File" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sources" toMany="YES" deletionRule="Nullify" destinationEntity="Source" syncable="YES"/>
+        <relationship name="tags" toMany="YES" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+    </entity>
+    <entity name="Node" representedClassName=".Node" syncable="YES">
+        <attribute name="about" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="files" toMany="YES" deletionRule="Nullify" destinationEntity="File" syncable="YES"/>
+        <relationship name="sources" toMany="YES" deletionRule="Nullify" destinationEntity="Source" syncable="YES"/>
+        <relationship name="tags" toMany="YES" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+    </entity>
+    <entity name="Relationship" representedClassName=".Relationship" syncable="YES">
+        <relationship name="forward" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+        <relationship name="reverse" maxCount="1" deletionRule="Nullify" destinationEntity="Node" syncable="YES"/>
+        <relationship name="sources" toMany="YES" deletionRule="Nullify" destinationEntity="Source" syncable="YES"/>
+    </entity>
+    <entity name="Source" representedClassName=".Source" syncable="YES">
+        <attribute name="url" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Node" positionX="-639" positionY="-180" width="128" height="118"/>
+        <element name="Edge" positionX="-153" positionY="-441" width="128" height="103"/>
+        <element name="Relationship" positionX="-144" positionY="54" width="128" height="88"/>
+        <element name="File" positionX="43" positionY="-124" width="128" height="88"/>
+        <element name="Source" positionX="232" positionY="-123" width="128" height="58"/>
+    </elements>
 </model>
